@@ -1,0 +1,6 @@
+project: thefuzz
+target: ratio
+image: ghcr.io/sugarplumchum73/thefuzz
+cmds:
+  - cmd: /src/mayhem/test.py
+    libfuzzer: true
