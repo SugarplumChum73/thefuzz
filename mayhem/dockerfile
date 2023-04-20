@@ -6,3 +6,6 @@ WORKDIR /src
 
 # Build the project.
 RUN pip install .
+
+# Change Permissions
+RUN chmod +x /src/mayhem/test.py
